@@ -10,7 +10,7 @@ const ExpenseForm: React.FC<Props> = ({ onAdd }) => {
   const [amount, setAmount] = useState("");
   const [type, setType] = useState<"PLUS" | "MINUS">("PLUS");
   const [person, setPerson] =
-    useState<"RAHUL MUKATI" | "NILESH PRAJAPATI">("RAHUL MUKATI");
+    useState<"Owner One" | "Owner Two">("Owner One");
   const [category, setCategory] = useState("");
 
   const submitHandler = (e: React.FormEvent) => {
@@ -147,13 +147,13 @@ const ExpenseForm: React.FC<Props> = ({ onAdd }) => {
           onChange={(e) =>
             setPerson(
               e.target.value as
-                | "RAHUL MUKATI"
-                | "NILESH PRAJAPATI"
+              | "Owner One"
+              | "Owner Two"
             )
           }
         >
-          <option value="RAHUL MUKATI">Rahul Mukati</option>
-          <option value="NILESH PRAJAPATI">Nilesh Prajapati</option>
+          <option value="Owner One">Owner One</option>
+          <option value="Owner Two">Owner Two</option>
         </select>
       </div>
 

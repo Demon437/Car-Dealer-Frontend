@@ -94,31 +94,31 @@
 //               <li className="flex items-start gap-3">
 //                 <MapPin className="w-5 h-5 text-[rgb(194_171_49)] flex-shrink-0 mt-0.5" />
 //                 <span className="text-gray-400 text-sm">
-//                   Rau Circle, Over Bridge Near Baba Ram Dev Restaurant<br />
+//                   Plot No. 45, Near C21 Mall, Hoshangabad Road<br />
 //                   Rau, 453331<br />
 //                   Madhya Pradesh, India
 //                 </span>
 //               </li>
 
-              
+
 
 //               <li className="flex items-center gap-3">
 //                 <Phone className="w-5 h-5 text-[rgb(194_171_49)] flex-shrink-0" />
 //                 <a href="tel:+919098484153" className="text-gray-400 text-sm hover:text-[rgb(194_171_49)] transition-colors">
-//                   +91 9098484153
+//                   +919098412345
 //                 </a>
 //               </li>
 //               <li className="flex items-center gap-3">
 //                 <Phone className="w-5 h-5 text-[rgb(194_171_49)] flex-shrink-0" />
-//                 <a href="tel:+917018010668" className="text-gray-400 text-sm hover:text-[rgb(194_171_49)] transition-colors">
-//                   +91 7018010668
+//                 <a href="tel:+917018012345" className="text-gray-400 text-sm hover:text-[rgb(194_171_49)] transition-colors">
+//                   +91 7018012345
 //                 </a>
 //               </li>
 
 //               <li className="flex items-center gap-3">
 //                 <Mail className="w-5 h-5 text-[rgb(194_171_49)] flex-shrink-0" />
-//                 <a href="mailto:prajapatimukatimotors@gmail.com" className="text-gray-400 text-sm hover:text-[rgb(194_171_49)] transition-colors">
-//                   prajapatimukatimotors@gmail.com
+//                 <a href="mailto:demo@gmail.com" className="text-gray-400 text-sm hover:text-[rgb(194_171_49)] transition-colors">
+//                   demo@gmail.com
 //                 </a>
 //               </li>
 //             </ul>
@@ -161,7 +161,7 @@ const Footer = () => {
           {/* Brand */}
           <div className="space-y-6">
             <Link to="/" className="flex items-center gap-3">
-              
+
             </Link>
 
             <p className="text-gray-500 text-sm leading-relaxed">
@@ -230,7 +230,7 @@ const Footer = () => {
               <li className="flex items-start gap-3">
                 <MapPin className="w-5 h-5 text-red-600 flex-shrink-0 mt-0.5" />
                 <span className="text-gray-500 text-sm">
-                  Rau Circle, Over Bridge Near Baba Ram Dev Restaurant<br />
+                  Plot No. 45, Near C21 Mall, Hoshangabad Road<br />
                   Rau, 453331<br />
                   Madhya Pradesh, India
                 </span>
@@ -239,21 +239,21 @@ const Footer = () => {
               <li className="flex items-center gap-3">
                 <Phone className="w-5 h-5 text-red-600" />
                 <a href="tel:+919098484153" className="text-gray-500 text-sm hover:text-red-600">
-                  +91 9098484153
+                  +919098412345
                 </a>
               </li>
 
               <li className="flex items-center gap-3">
                 <Phone className="w-5 h-5 text-red-600" />
-                <a href="tel:+917018010668" className="text-gray-500 text-sm hover:text-red-600">
-                  +91 7018010668
+                <a href="tel:+917018012345" className="text-gray-500 text-sm hover:text-red-600">
+                  +91 7018012345
                 </a>
               </li>
 
               <li className="flex items-center gap-3">
                 <Mail className="w-5 h-5 text-red-600" />
-                <a href="mailto:prajapatimukatimotors@gmail.com" className="text-gray-500 text-sm hover:text-red-600">
-                  prajapatimukatimotors@gmail.com
+                <a href="mailto:demo@gmail.com" className="text-gray-500 text-sm hover:text-red-600">
+                  demo@gmail.com
                 </a>
               </li>
             </ul>

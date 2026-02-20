@@ -4,8 +4,8 @@
 // import inspectorImg from "@/assets/2nd owner.jpeg";
 
 // const team = [
-//   { name: "RAHUL MUKATI", role: "Founder & CEO", description: "15+ years in the luxury automobile industry.", image: founderImg },
-//   { name: " NILESH PRAJAPATI", role: "Head of Inspections", description: "Expert in 200-point car verification.", image: inspectorImg },
+//   { name: "Owner One", role: "Founder & CEO", description: "15+ years in the luxury automobile industry.", image: founderImg },
+//   { name: " Owner Two", role: "Head of Inspections", description: "Expert in 200-point car verification.", image: inspectorImg },
 // ];
 
 // export const Team = () => (
@@ -76,8 +76,8 @@ import founderImg from "@/assets/owner.jpeg";
 import inspectorImg from "@/assets/2nd owner.jpeg";
 
 const team = [
-  { name: "RAHUL MUKATI", role: "Founder & CEO", description: "15+ years in the luxury automobile industry.", image: founderImg },
-  { name: "NILESH PRAJAPATI", role: "Head of Inspections", description: "Expert in 200-point car verification.", image: inspectorImg },
+  { name: "Owner One", role: "Founder & CEO", description: "15+ years in the luxury automobile industry.", image: founderImg },
+  { name: "Owner Two", role: "Head of Inspections", description: "Expert in 200-point car verification.", image: inspectorImg },
 ];
 
 export const Team = () => (
@@ -120,7 +120,7 @@ export const Team = () => (
             className="group relative p-8 rounded-[2.5rem] bg-white border border-gray-200 hover:border-red-300 transition-all duration-500 hover:shadow-[0_25px_50px_rgba(239,68,68,0.12)]"
           >
             <div className="flex flex-col items-center text-center space-y-6">
-              
+
               {/* Rotating gradient border updated to red */}
               <div className="relative">
                 <div className="absolute inset-0 rounded-full bg-red-400/30 blur-xl opacity-0 group-hover:opacity-60 transition-opacity duration-500" />
@@ -135,10 +135,6 @@ export const Team = () => (
                   </div>
                 </div>
 
-                {/* Trust Badge
-                <div className="absolute -bottom-1 -right-1 bg-gray-600 text-white p-2 rounded-full shadow-lg border-4 border-white group-hover:scale-110 transition-transform duration-300">
-                  <Shield className="w-5 h-5" />
-                </div> */}
               </div>
 
               <div className="space-y-3">

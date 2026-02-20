@@ -8,7 +8,7 @@ import api from "@/api/api";
 const Expenses = () => {
   const [expenses, setExpenses] = useState<Expense[]>([]);
   const [activePerson, setActivePerson] =
-    useState<"RAHUL MUKATI" | "NILESH PRAJAPATI">("RAHUL MUKATI");
+    useState<"Owner One" | "Owner Two">("Owner One");
   const [loading, setLoading] = useState(true);
 
   // 🔥 DEFAULT = TODAY
@@ -113,19 +113,18 @@ const Expenses = () => {
 
         {/* PERSON SWITCH */}
         <div className="flex bg-white rounded-full p-1 shadow-sm border w-full sm:w-auto overflow-x-auto">
-          {["RAHUL MUKATI", "NILESH PRAJAPATI"].map((person) => (
+          {["Owner One", "Owner Two"].map((person) => (
             <button
               key={person}
               onClick={() =>
-                setActivePerson(person as "RAHUL MUKATI" | "NILESH PRAJAPATI")
+                setActivePerson(person as "Owner One" | "Owner Two")
               }
               className={`
                 px-4 sm:px-6 py-2 rounded-full text-sm font-medium transition
                 whitespace-nowrap
-                ${
-                  activePerson === person
-                    ? "bg-blue-600 text-white shadow"
-                    : "text-gray-600 hover:bg-gray-100"
+                ${activePerson === person
+                  ? "bg-blue-600 text-white shadow"
+                  : "text-gray-600 hover:bg-gray-100"
                 }
               `}
             >
@@ -135,7 +134,7 @@ const Expenses = () => {
         </div>
       </div>
 
-      
+
 
       {/* ================= MAIN GRID ================= */}
       <div className="grid grid-cols-1 xl:grid-cols-5 gap-6 sm:gap-8">

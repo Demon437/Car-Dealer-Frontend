@@ -7,11 +7,11 @@ interface Props {
 
 const ExpenseChart: React.FC<Props> = ({ expenses }) => {
     const p1 = expenses
-        .filter((e) => e.person === "RAHUL MUKATI")
+        .filter((e) => e.person === "Owner One")
         .reduce((sum, e) => sum + e.amount, 0);
 
     const p2 = expenses
-        .filter((e) => e.person === "NILESH PRAJAPATI")
+        .filter((e) => e.person === "Owner Two")
         .reduce((sum, e) => sum + e.amount, 0);
 
     const total = p1 + p2 || 1;
@@ -24,7 +24,7 @@ const ExpenseChart: React.FC<Props> = ({ expenses }) => {
 
             <div className="grid grid-cols-2 gap-3">
                 <div className="p-3 bg-white shadow rounded">
-                    <div className="text-sm text-gray-500">RAHUL MUKATI</div>
+                    <div className="text-sm text-gray-500">Owner One</div>
                     <div className="text-2xl font-semibold">₹{p1}</div>
                     <div className="mt-2 h-2 bg-gray-100 rounded">
                         <div
@@ -35,7 +35,7 @@ const ExpenseChart: React.FC<Props> = ({ expenses }) => {
                 </div>
 
                 <div className="p-3 bg-white shadow rounded">
-                    <div className="text-sm text-gray-500">NILESH PRAJAPATI</div>
+                    <div className="text-sm text-gray-500">Owner Two</div>
                     <div className="text-2xl font-semibold">₹{p2}</div>
                     <div className="mt-2 h-2 bg-gray-100 rounded">
                         <div

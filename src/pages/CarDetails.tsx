@@ -22,7 +22,7 @@ const PLACEHOLDER = "https://via.placeholder.com/900x600?text=No+Image";
 
 const phoneNumbers = [
   "+919098484153",
-  "+917018010668",
+  "+917018012345",
 ];
 
 /* ================= NORMALIZER ================= */
@@ -46,7 +46,7 @@ const normalizeCar = (data: any) => {
     };
   }
 
-  
+
 
   return data;
 };
@@ -118,7 +118,7 @@ const CarDetails = () => {
       );
     }
   };
-  
+
 
   return (
     <>
@@ -165,8 +165,8 @@ const CarDetails = () => {
                   src={img}
                   onClick={() => setActiveIndex(i)}
                   className={`w-28 h-20 object-cover rounded-xl cursor-pointer border-2 ${i === activeIndex
-                      ? "border-red-500"
-                      : "border-transparent"
+                    ? "border-red-500"
+                    : "border-transparent"
                     }`}
                 />
               ))}
@@ -215,31 +215,31 @@ const CarDetails = () => {
 
             {/* ACTIONS */}
             {/* ACTIONS */}
-{/* ACTIONS */}
-<div className="flex flex-wrap gap-4">
+            {/* ACTIONS */}
+            <div className="flex flex-wrap gap-4">
 
-  {/* CALL (RANDOM) */}
-  <Button disabled={isSold} onClick={handleCall}>
-    <Phone className="mr-2" /> Call
-  </Button>
+              {/* CALL (RANDOM) */}
+              <Button disabled={isSold} onClick={handleCall}>
+                <Phone className="mr-2" /> Call
+              </Button>
 
-  {/* WHATSAPP (FIXED / CAN ALSO BE RANDOM IF YOU WANT) */}
-  <a
-    href="https://wa.me/919098484153"
-    target="_blank"
-    rel="noopener noreferrer"
-  >
-    <Button variant="whatsapp" disabled={isSold}>
-      <MessageCircle className="mr-2" /> WhatsApp
-    </Button>
-  </a>
+              {/* WHATSAPP (FIXED / CAN ALSO BE RANDOM IF YOU WANT) */}
+              <a
+                href="https://wa.me/919098484153"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Button variant="whatsapp" disabled={isSold}>
+                  <MessageCircle className="mr-2" /> WhatsApp
+                </Button>
+              </a>
 
-  {/* SHARE */}
-  <Button variant="outline" onClick={shareCar}>
-    Share
-  </Button>
+              {/* SHARE */}
+              <Button variant="outline" onClick={shareCar}>
+                Share
+              </Button>
 
-</div>
+            </div>
 
 
           </div>

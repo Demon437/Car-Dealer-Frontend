@@ -65,14 +65,14 @@
 //                       href="tel:+91+9098484153"
 //                       className="text-muted-foreground hover:text-primary transition-colors"
 //                     >
-//                       +91 9098484153
+//                       +919098412345
 //                     </a>
 //                     <br />
 //                     <a
-//                       href="tel:+917018010668"
+//                       href="tel:+917018012345"
 //                       className="text-muted-foreground hover:text-primary transition-colors"
 //                     >
-//                       +91 7018010668
+//                       +91 7018012345
 //                     </a>
 
 //                     <p className="text-sm text-muted-foreground">Mon-Sun, 9am-9pm</p>
@@ -91,16 +91,16 @@
 //                       rel="noopener noreferrer"
 //                       className="text-muted-foreground hover:text-primary transition-colors"
 //                     >
-//                       +91 9098484153
+//                       +919098412345
 //                     </a>
 //                     <br />
 //                     <a
-//                       href="https://wa.me/917018010668"
+//                       href="https://wa.me/917018012345"
 //                       target="_blank"
 //                       rel="noopener noreferrer"
 //                       className="text-muted-foreground hover:text-primary transition-colors"
 //                     >
-//                       +91 7018010668
+//                       +91 7018012345
 //                     </a>
 //                     <p className="text-sm text-muted-foreground">Chat with us instantly</p>
 //                   </div>
@@ -113,10 +113,10 @@
 //                   <div>
 //                     <h3 className="font-semibold text-foreground">Email</h3>
 //                     <a
-//                       href="mailto:prajapatimukatimotors@gmail.com"
+//                       href="mailto:demo@gmail.com"
 //                       className="text-muted-foreground hover:text-primary transition-colors"
 //                     >
-//                       prajapatimukatimotors@gmail.com
+//                       demo@gmail.com
 //                     </a>
 //                     <p className="text-sm text-muted-foreground">We reply within 24 hours</p>
 //                   </div>
@@ -131,7 +131,7 @@
 //                     <p className="text-muted-foreground">
 //                       Rau Circle, Over Bridge
 //                       <br />
-//                       Near Baba Ram Dev Restaurant
+//                       Address: Plot No. 45, Near C21 Mall, Hoshangabad Road
 //                       <br />
 //                       Rau, 453331
 //                       Indore Madhya Pradesh
@@ -156,14 +156,14 @@
 //               {/* Quick Action Buttons */}
 //               <div className="flex gap-4">
 //                 <Button variant="hero" size="lg" asChild>
-//                   <a href="tel:+91+91 9098484153">
+//                   <a href="tel:+91+919098412345">
 //                     <Phone className="w-5 h-5" />
 //                     Call Now
 //                   </a>
 //                 </Button>
 //                 <Button variant="whatsapp" size="lg" asChild>
 //                   <a
-//                     href="https://wa.me/91+91 9098484153"
+//                     href="https://wa.me/91+919098412345"
 //                     target="_blank"
 //                     rel="noopener noreferrer"
 //                   >
@@ -199,7 +199,7 @@
 //                     <Input
 //                       id="phone"
 //                       type="tel"
-//                       placeholder="+91 9098484153"
+//                       placeholder="+919098412345"
 //                       value={formData.phone}
 //                       onChange={(e) =>
 //                         setFormData((prev) => ({ ...prev, phone: e.target.value }))
@@ -214,7 +214,7 @@
 //                   <Input
 //                     id="email"
 //                     type="email"
-//                     placeholder="prajapatimukatimotors@gmail.com"
+//                     placeholder="demo@gmail.com"
 //                     value={formData.email}
 //                     onChange={(e) =>
 //                       setFormData((prev) => ({ ...prev, email: e.target.value }))
@@ -320,11 +320,11 @@ const Contact = () => {
                   <div>
                     <h3 className="font-semibold">Phone</h3>
                     <a href="tel:+919098484153" className="text-gray-500 hover:text-red-600">
-                      +91 9098484153
+                      +919098412345
                     </a>
                     <br />
-                    <a href="tel:+917018010668" className="text-gray-500 hover:text-red-600">
-                      +91 7018010668
+                    <a href="tel:+917018012345" className="text-gray-500 hover:text-red-600">
+                      +91 7018012345
                     </a>
                     <p className="text-sm text-gray-500">Mon-Sun, 9am-9pm</p>
                   </div>
@@ -338,11 +338,11 @@ const Contact = () => {
                   <div>
                     <h3 className="font-semibold">WhatsApp</h3>
                     <a href="https://wa.me/919098484153" target="_blank" className="text-gray-500 hover:text-red-600">
-                      +91 9098484153
+                      +919098412345
                     </a>
                     <br />
-                    <a href="https://wa.me/917018010668" target="_blank" className="text-gray-500 hover:text-red-600">
-                      +91 7018010668
+                    <a href="https://wa.me/917018012345" target="_blank" className="text-gray-500 hover:text-red-600">
+                      +91 7018012345
                     </a>
                     <p className="text-sm text-gray-500">Chat with us instantly</p>
                   </div>
@@ -355,8 +355,8 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="font-semibold">Email</h3>
-                    <a href="mailto:prajapatimukatimotors@gmail.com" className="text-gray-500 hover:text-red-600">
-                      prajapatimukatimotors@gmail.com
+                    <a href="mailto:demo@gmail.com" className="text-gray-500 hover:text-red-600">
+                      demo@gmail.com
                     </a>
                     <p className="text-sm text-gray-500">We reply within 24 hours</p>
                   </div>
@@ -371,7 +371,7 @@ const Contact = () => {
                     <h3 className="font-semibold">Address</h3>
                     <p className="text-gray-500">
                       Rau Circle, Over Bridge<br />
-                      Near Baba Ram Dev Restaurant<br />
+                      Address: Plot No. 45, Near C21 Mall, Hoshangabad Road<br />
                       Rau, 453331<br />
                       Indore, Madhya Pradesh, India
                     </p>
@@ -421,27 +421,27 @@ const Contact = () => {
                   <div className="space-y-2">
                     <Label>Full Name *</Label>
                     <Input value={formData.name}
-                      onChange={(e)=>setFormData(p=>({...p,name:e.target.value}))}/>
+                      onChange={(e) => setFormData(p => ({ ...p, name: e.target.value }))} />
                   </div>
 
                   <div className="space-y-2">
                     <Label>Phone *</Label>
                     <Input value={formData.phone}
-                      onChange={(e)=>setFormData(p=>({...p,phone:e.target.value}))}/>
+                      onChange={(e) => setFormData(p => ({ ...p, phone: e.target.value }))} />
                   </div>
                 </div>
 
                 <div className="space-y-2">
                   <Label>Email</Label>
                   <Input value={formData.email}
-                    onChange={(e)=>setFormData(p=>({...p,email:e.target.value}))}/>
+                    onChange={(e) => setFormData(p => ({ ...p, email: e.target.value }))} />
                 </div>
 
                 <div className="space-y-2">
                   <Label>Message *</Label>
                   <Textarea rows={5}
                     value={formData.message}
-                    onChange={(e)=>setFormData(p=>({...p,message:e.target.value}))}/>
+                    onChange={(e) => setFormData(p => ({ ...p, message: e.target.value }))} />
                 </div>
 
                 <Button type="submit" className="w-full bg-red-500 hover:bg-red-700 text-white">

@@ -1,6 +1,6 @@
 export type Expense = {
   _id?: string; // ✅ MongoDB ID
-  person: "RAHUL MUKATI" | "NILESH PRAJAPATI";
+  person: "Owner One" | "Owner Two";
   title: string;
   amount: number;
   category?: string; // ✅ FIX for TS2339
