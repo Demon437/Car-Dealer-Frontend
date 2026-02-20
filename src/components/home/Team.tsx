@@ -72,12 +72,12 @@
 
 import { motion } from "framer-motion";
 import { Shield } from "lucide-react";
-import founderImg from "@/assets/owner.jpeg";
+// import founderImg from "@/assets/owner.jpeg";
 // import inspectorImg from "@/assets/2nd owner.jpeg";
 
 const team = [
-  { name: "Owner One", role: "Founder & CEO", description: "15+ years in the luxury automobile industry.", image: founderImg },
-  // { name: "Owner Two", role: "Head of Inspections", description: "Expert in 200-point car verification.", image: inspectorImg },
+  { name: "Owner One", role: "Founder & CEO", description: "15+ years in the luxury automobile industry." },
+  { name: "Owner Two", role: "Head of Inspections", description: "Expert in 200-point car verification." },
 ];
 
 export const Team = () => (
@@ -127,11 +127,11 @@ export const Team = () => (
 
                 <div className="w-44 h-44 rounded-full bg-gradient-to-tr from-gray-500 via-black-400 to-gray-500 p-1.5 transition-transform duration-700 group-hover:rotate-6">
                   <div className="w-full h-full rounded-full overflow-hidden bg-white border-4 border-white">
-                    <img
+                    {/* <img
                       src={member.image}
                       alt={member.name}
                       className="w-full h-full object-contain transition-transform duration-700 group-hover:scale-105"
-                    />
+                    /> */}
                   </div>
                 </div>
 
