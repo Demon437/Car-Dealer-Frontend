@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "https://car-website-eju3.onrender.com/api",
+  baseURL: "https://car-dealer-backend-production.up.railway.app/api",
 });
 
 api.interceptors.request.use((config) => {
