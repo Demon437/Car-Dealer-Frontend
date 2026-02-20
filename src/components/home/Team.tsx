@@ -73,11 +73,11 @@
 import { motion } from "framer-motion";
 import { Shield } from "lucide-react";
 import founderImg from "@/assets/owner.jpeg";
-import inspectorImg from "@/assets/2nd owner.jpeg";
+// import inspectorImg from "@/assets/2nd owner.jpeg";
 
 const team = [
   { name: "Owner One", role: "Founder & CEO", description: "15+ years in the luxury automobile industry.", image: founderImg },
-  { name: "Owner Two", role: "Head of Inspections", description: "Expert in 200-point car verification.", image: inspectorImg },
+  // { name: "Owner Two", role: "Head of Inspections", description: "Expert in 200-point car verification.", image: inspectorImg },
 ];
 
 export const Team = () => (
