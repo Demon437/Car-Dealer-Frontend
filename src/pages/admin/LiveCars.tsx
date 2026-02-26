@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { IndianRupee, Calendar, Gauge } from "lucide-react";
+import { IndianRupee, Calendar, Gauge, Car } from "lucide-react";
 import api from "@/api/api";
 import MarkSoldModal from "./MarkSoldModal";
 
